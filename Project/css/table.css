@@ -1,0 +1,41 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    color: #614124;
+    text-align: center;
+    border: 1px solid #8c678f;
+    padding: 8px;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+
+td {
+    border: 1px solid #8c678f;
+    text-align: left;
+    padding: 8px;
+    color: #161853;
+    font-weight: bold;
+    font-style: italic;
+}
+
+tr:nth-child(even) {
+    background-color: #D3E4CD;
+}
+
+h3 {
+    font-size: large;
+    text-align: center;
+}
+
+ol {
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.6;
+    color: #614124;
+}

@@ -1,0 +1,53 @@
+.maincontent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.video1 {
+    flex: 2;
+    order: 1;
+    float: left;
+}
+
+.video2 {
+    flex: 2;
+    order: 2;
+    float: left;
+}
+
+.video3 {
+    flex: 2;
+    order: 3;
+    float: left;
+}
+
+.video4 {
+    flex: 2;
+    order: 3;
+    float: left;
+}
+
+video {
+    margin: 5px;
+    border: 4px solid #D3E4CD;
+    background-color: black;
+}
+
+.column3 img {
+    height: 70%;
+    width: 90%;
+}
+
+h4 {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    color: #064635;
+}
+
+h3 {
+    font-size: large;
+}
